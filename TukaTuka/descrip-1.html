@@ -80,7 +80,17 @@
 												
 											</header>
 
-												<button class="button" type="button" ><span class="button__text" aria-hidden="true">Показать телефон <span class="phones__mask">+7&nbsp;XXX XXX XX-XX</span></span></button>
+												<button class="button" type="button"><span class="button__text">Показать телефон </span><span id="telephone" hidden>+7&nbsp;(123) 456 78-90</span><span id="phones__mask" >+7&nbsp;XXX XXX XX-XX</span></button>
+                            
+                                                <script>
+                                                document.onclick = function(event) {
+                                                    
+                                                    var elem = document.getElementById("telephone");
+
+                                                    elem.hidden = !elem.hidden;
+                                                    document.getElementById("phones__mask").parentNode.removeChild(document.getElementById("phones__mask"));
+                                                };
+                                                </script>
 												<div class="right-sidebar">
 												
 											<p id="right">Контактное лицо: Снигерев Алексей Николаевич, руководитель ООО "Вторполимер"</p>
