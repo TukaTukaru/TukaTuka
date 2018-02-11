@@ -1322,8 +1322,7 @@ table {
     border-spacing: 0;
     width: 100%;    
 }
-.bordered thead th
-{
+.bordered thead th {
   font-size: 120%; 
   font-weight: bold;
   -moz-border-radius-topright: 10px;
@@ -1332,6 +1331,16 @@ table {
   border-top-left-radius: 10px;
   border-top: 1px solid #eaeaea;
 }
+
+.bordered img {
+	border-radius: 8px;
+	position: relative;
+	z-index: 1;
+	left: 12px;
+	top: 8px;
+    width: 83px;
+	height: 82px;     
+} 
 
 .bordered {
     -moz-border-radius: 6px;
