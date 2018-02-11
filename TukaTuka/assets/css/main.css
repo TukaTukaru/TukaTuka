@@ -12,6 +12,8 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1338,22 +1340,29 @@ table {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
+    font-smoothing: antialiased;
     border: 0;
   	border-spacing: 0;
     -webkit-box-shadow: 0 1px 1px #ccc; 
     -moz-box-shadow: 0 1px 1px #ccc; 
     box-shadow: 0 1px 1px #ccc;         
 }
-
+.bordered tr:nth-child(odd){ /* Задаем стили для нечетных рядов таблицы */
+	background: #fff;
+}
+.bordered tr:nth-child(even){ /* Задаем стили для четных рядов таблицы */
+	background: #f2f6f8;
+}
 .bordered tr:hover {
     background: #fbf8e9;
     -o-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;     
+    transition: all 0.1s ease-in-out;   
+   
 }    
-    
+
 .bordered td, .bordered th {
     border-top: 1px solid #ccc;
     padding: 10px;
