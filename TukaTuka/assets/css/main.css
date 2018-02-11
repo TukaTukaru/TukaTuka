@@ -1342,6 +1342,10 @@ table {
 	height: 82px;     
 } 
 
+.bordered div {
+	position: relative
+}
+
 .bordered {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
