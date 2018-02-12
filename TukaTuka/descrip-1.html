@@ -6,8 +6,9 @@
 		<meta name="keywords" content="waste recycling, recycle, buy plastic wastes, sell plastic wastes" />
 		<meta name="description" content="Сайт является маркетплейсом вторичного сырья" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="images/icons8-t-50.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -64,11 +65,14 @@
 
 										<article>
 											<header class="major">
-												<h3>Продам отходы ПВД-пленки</h3>
-                                                <h3 id="right">35 руб/кг</h3>
-												<h4>г. Москва, Рябиновая, 16</h4>
-                                                <h4 align="right">Всегда 5-6 тонн</h4>
-
+                                                <div class="row">
+                                                    <div class="col"><h3>Продам отходы ПВД-пленки</h3></div>
+                                                    <div class="col"><h3>35 руб/кг</h3></div>
+                                                    <div class="w-100"></div>
+                                                    <div class="col"><h4>г. Москва, Рябиновая, 16</h4></div>
+                                                    <div class="col"><h4>Всегда 5-6 тонн</h4></div>
+  
+                                                </div>
 											</header>
 
 												<button class="button" type="button" id="button"><span class="button__text">Показать телефон </span><span id="telephone" hidden>+7&nbsp;(920) 120-38-30</span><span id="phones__mask" >+7&nbsp;XXX XXX XX-XX</span></button>
@@ -83,16 +87,25 @@
                                                 };
                                                 </script>
 												<div class="left-sidebar">
-                                                    <p id="left">Снигерев Алексей Николаевич, руководитель ООО "Вторполимер"</p>
+                                                    <p id="left"><strong>Снигерев Алексей Николаевич:</strong> руководитель ООО "Вторполимер"</p>
                                                 </div>
 											
 
 											
-											<span><img style="border-radius: 8px;position: relative; z-index: 1; left: 6px; top: 0px; width: 233px; height: 192px;" src="images/3_1.jpg" border="0" /></span>
 											
-											<p><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e34df176b4f89f6ef6c211278d2f4f68cacac31f9c91495bbfc63c8590636ae&amp;width=844&amp;height=453&amp;lang=ru_RU&amp;scroll=true"></script><strong>Описание от продавца:</strong> Отходы чистые, складские, после переборки. Доставка по центральной части Москвы и Московской области. 
+                                            
+                                            <div class="row">
+                                                <div class="col-m-2">
+                                                  <span><img style="border-radius: 8px;position: relative; z-index: 1; left: 6px; top: 0px; width: 233px; height: 192px;" src="images/3_1.jpg" border="0" /></span>   
+                                                </div>
+                                                <div class="col-m-2"><h3>Описание от продавца:</h3>
+                                            Отходы чистые, складские, после переборки. Доставка по центральной части Москвы и Московской области.
+                                                </div>
+											</div>
 
-                                			</p>
+                                            <!-- Yandex maps-->
+											<p><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e34df176b4f89f6ef6c211278d2f4f68cacac31f9c91495bbfc63c8590636ae&amp;width=844&amp;height=453&amp;lang=ru_RU&amp;scroll=true"></script>
+                                            </p>
                                          	
 											
 										</article>
@@ -101,8 +114,7 @@
 							</div>
 						</div>
 					</div>
-					
-				</div>
+                </div>
 
 			<!-- Footer Wrapper -->
 				<div id="footer-wrapper">

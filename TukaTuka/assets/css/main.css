@@ -1232,6 +1232,8 @@
 	header.major {
 		border-bottom: solid 1px #dbdbdb;
 		margin: 0 0 3em 0;
+        
+        
 	}
 
 		header.major:after {
