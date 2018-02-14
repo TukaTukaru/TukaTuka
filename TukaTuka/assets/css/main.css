@@ -1139,6 +1139,16 @@
 		margin-top: 2em;
 	}
 
+    h5 {
+		font-size: .979em;
+        font-weight: 500;
+	}
+
+    h6 {
+		font-size: 1.3em;
+        font-weight: 500;
+	}
+
 	b, strong {
 		color: #404248;
 		font-weight: 700;
