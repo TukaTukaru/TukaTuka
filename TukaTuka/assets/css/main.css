@@ -1153,6 +1153,10 @@
 		color: #404248;
 		font-weight: 700;
 	}
+    
+    .lindentation {
+        margin-left: 15px;
+    }
 
 	i, em {
 		font-style: italic;
