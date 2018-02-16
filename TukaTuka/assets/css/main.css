@@ -1818,6 +1818,18 @@ table {
 			margin: 0 0 1.5em 0;
 		}
 
+        #banner h3 {
+			
+			border-left: 0;
+			border-right: 0;
+			color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			font-size: 2.em;
+			font-weight: 700;
+			line-height: 1.3em;
+			margin: 0 0 1.5em 0;
+		}
+
 			#banner h2 strong {
 				font-weight: 800;
 				color: inherit;
