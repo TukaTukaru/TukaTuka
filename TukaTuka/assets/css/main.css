@@ -1273,6 +1273,7 @@
 
 	}
 
+
 /* Forms */
 
 	form label {
@@ -1292,7 +1293,7 @@
 	form textarea {
 		-webkit-appearance: none;
 		display: block;
-		width: 100%;
+		width: 99%;
 		border-radius: 8px;
 		border: solid 1px #eee;
 	}
@@ -1308,7 +1309,7 @@
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"] {
-		line-height: 3em;
+		line-height: 3.4em;
 		padding: 0 1em;
 	}
 
