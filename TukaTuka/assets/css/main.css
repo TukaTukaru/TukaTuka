@@ -1642,7 +1642,9 @@ table {
 			.button.alt:active {
 				background-color: #363a42;
 			}
-
+    .red {
+    background-color: coral;
+    }
 /* List */
 
 	dl.contact dt {
