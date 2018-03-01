@@ -1573,7 +1573,34 @@ table {
 		white-space: nowrap;
 		cursor: pointer;
 	}
-
+    .buttongreen {
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		-webkit-appearance: none;
+		position: relative;
+		display: inline-block;
+		background-color: #259433;
+		border-radius: 8px;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
+		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+		color: #fff !important;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 800;
+		font-size: 0.95em;
+		letter-spacing: 0.075em;
+		padding: 1em 2em;
+		outline: 0;
+		border: 0;
+		white-space: nowrap;
+		cursor: pointer;
+}
 		input[type="button"].icon:before,
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
