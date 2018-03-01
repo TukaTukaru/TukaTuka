@@ -1156,7 +1156,7 @@
     
     .indentation {
         margin-left: 15px;
-        margin-top: -80px;
+        margin-top: -2em;
         margin-bottom: -30px;
     }
 
@@ -1275,8 +1275,10 @@
 		right: 3em;
 
 	}
+	
 	.col-m-2{
-		margin-top: -3.5em;
+		margin-top: -4em;
+		margin-bottom: -2em;
 	}
 
 /* Forms */
