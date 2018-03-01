@@ -1156,7 +1156,10 @@
     
     .indentation {
         margin-left: 15px;
+        margin-top: -80px;
+        margin-bottom: -30px;
     }
+
 
 	i, em {
 		font-style: italic;
@@ -1254,11 +1257,11 @@
 			content: '';
 			display: block;
 			border-top: solid 1px #dbdbdb;
-			height: 8px;
+			height: 0px;
 		}
 
 		header.major h2, header.major h3 {
-			margin: 0 0 1.2em 0;
+			margin: 0 0 1em 0;
 		}
 
 		header.major p {
@@ -1272,7 +1275,9 @@
 		right: 3em;
 
 	}
-
+	.col-m-2{
+		margin-top: -3.5em;
+	}
 
 /* Forms */
 
@@ -2028,7 +2033,7 @@ table {
 			}
 
 			.wrapper {
-				padding: 7em 0 7em 0;
+				padding: 2em 0 2em 0;
 			}
 
 			#footer-wrapper {
