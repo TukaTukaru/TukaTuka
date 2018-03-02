@@ -1155,9 +1155,8 @@
 	}
     
     .indentation {
-        margin-left: 15px;
-        margin-top: -2em;
-        margin-bottom: -30px;
+        margin-left: 30px;
+
     }
 
 
@@ -1276,10 +1275,9 @@
 
 	}
 
-	.col-m-2{
-		margin-top: -3em;
-		margin-bottom: -2em;
-	}
+.btnup {
+    margin-top: -2em;
+}
 
 /* Forms */
 
@@ -1355,7 +1353,7 @@ table {
   -moz-border-radius-topleft: 10px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-top: 1px solid #eaeaea;
+  border-top: 0px solid #eaeaea;
 }
 
 
@@ -1375,10 +1373,10 @@ table {
 	background: #fff;
 }
 .bordered tr:nth-child(even){ /* Задаем стили для четных рядов таблицы */
-	background: #f2f6f8;
+	background: #ebf3fc;
 }
 .bordered tr:hover {
-    background: #fbf8e9;
+    background: #dceafa;
     -o-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
@@ -1390,22 +1388,23 @@ table {
 .bordered td, .bordered th {
     border-top: 1px solid #ccc;
     padding: 10px;
-    text-align: left;    
+    text-align: center;
+    vertical-align: middle;
 }
 
 .bordered th {
     background-color: #dce9f9;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
-    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e0ecfa), to(#d3e4f8));
+    background-image: -webkit-linear-gradient(top, #e0ecfa, #d3e4f8);
+    background-image:    -moz-linear-gradient(top, #e0ecfa, #d3e4f8);
+    background-image:     -ms-linear-gradient(top, #e0ecfa, #d3e4f8);
+    background-image:      -o-linear-gradient(top, #e0ecfa, #d3e4f8);
+    background-image:         linear-gradient(top, #e0ecfa, #d3e4f8);
     -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
     box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
     border-top: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 .bordered td:first-child, .bordered th:first-child {
@@ -1413,15 +1412,15 @@ table {
 }
 
 .bordered th:first-child {
-    -moz-border-radius: 6px 0 0 0;
-    -webkit-border-radius: 6px 0 0 0;
-    border-radius: 6px 0 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
 }
 
 .bordered th:last-child {
-    -moz-border-radius: 0 6px 0 0;
-    -webkit-border-radius: 0 6px 0 0;
-    border-radius: 0 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
 }
 
 .bordered th:only-child{
@@ -1451,9 +1450,9 @@ table {
 	position: relative;
 	z-index: 1;
 	left: 10px;
-	top: 17px;
+	top: 5px;
     width: 84px;
-	height: 84px;     
+	height: 84px;
 } 
 
 table {
@@ -1491,6 +1490,14 @@ table {
 				color: #fff;
 			}
 
+        a { 
+            text-decoration: none;
+        }
+
+        a:hover { 
+            color: #303236;
+            text-decoration: none;
+        }
 /* Image */
 .content__img {
 			
