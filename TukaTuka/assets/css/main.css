@@ -1553,6 +1553,24 @@ table {
 				margin: 0 auto;
 				width: auto;
 			}
+    
+        .butterfly {
+	       transition: 0.4s;
+        }
+
+        .butterfly:hover {
+	       transform: scale(1.5, 1.5);
+        }
+
+        .adimg {
+            border-radius: 8px;
+            position: relative; 
+            z-index: 1; 
+            left: 6px; 
+            top: 0px; 
+            width: 233px; 
+            height: 192px;   
+        }
 
 /* Button */
 
