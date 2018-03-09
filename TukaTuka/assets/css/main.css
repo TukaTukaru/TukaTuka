@@ -1820,8 +1820,8 @@ table {
 
 			.box.feature1 header.second p {
 				line-height: 1em;
-				text-transform: capitalize;
-				font-size: 1.2em;
+				text-transform: lowercase;
+				font-size: 1.3em;
 				color: #333333;
 				font-weight: 900;
 			}
