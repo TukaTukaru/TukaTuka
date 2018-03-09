@@ -1093,7 +1093,9 @@
 		color: #7b818c;
 		font-weight: 400;
 	}
-
+	#logo{
+		color: #ffffff;
+	}
 	a {
 		color: inherit;
 		text-decoration: underline;
@@ -1204,6 +1206,7 @@
 		color: #696969;
 		margin: 0 0 0.25em 0;
 	}
+	
 
 /* Section/Article */
 
@@ -1801,6 +1804,7 @@ table {
 
 		.box.feature1 header.first p {
 			font-size: 1.2em;
+			text-transform: none;
 		}
 
 		.box.feature1 header.second {
