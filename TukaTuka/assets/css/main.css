@@ -1800,11 +1800,13 @@ table {
 
 		.box.feature1 header.first h2 {
 			font-size: 2.5em;
+			margin-top: -0.5em;
 		}
 
 		.box.feature1 header.first p {
-			font-size: 1.2em;
+			font-size: 1.5em;
 			text-transform: none;
+			margin-bottom: -0.25em;
 		}
 
 		.box.feature1 header.second {
