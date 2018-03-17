@@ -1609,6 +1609,15 @@ table {
 		white-space: nowrap;
 		cursor: pointer;
 	}
+
+    button:active, button:focus {
+        outline: none;
+    }
+
+    button::-moz-focus-inner {
+        border: 0;
+    }
+
     .buttongreen {
         background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
