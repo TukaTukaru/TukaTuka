@@ -82,7 +82,7 @@
                                             <!-- Block with number -->
                                             <div class="row">
                                                     <div class="col-lg col-sm-auto btnup">
-														<button class="button" type="button" id="button"><span class="button__text">Показать телефон </span><span id="telephone" hidden>+7&nbsp;(926) 844-48-69</span><span id="phones__mask" >+7&nbsp;XXX XXX XX-XX</span></button>     
+														<button class="button" type="button" id="button"><span class="button__text" id="button__text">Показать телефон </span><span id="telephone" hidden>+7&nbsp;(926) 844-48-69</span><span id="phones__mask" >+7&nbsp;XXX XXX XX-XX</span></button>     
                                                     </div>
                                                     <div class="w-100 d-sm-none"><br></div>
                                                     <div class="col-lg col-sm-auto btnup">
@@ -106,6 +106,7 @@
 
                                                     elem.hidden = !elem.hidden;
                                                     document.getElementById("phones__mask").parentNode.removeChild(document.getElementById("phones__mask"));
+                                                    document.getElementById("button__text").parentNode.removeChild(document.getElementById("button__text"));
                                                 };
                                                 </script>
                         
