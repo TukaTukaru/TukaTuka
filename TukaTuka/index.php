@@ -24,12 +24,12 @@
 								<div class="inner">
 
 									<!-- Logo -->
-										<h1><a href="index.html" id="logo">TukaTuka</a></h1>
+										<h1><a href="index.php" id="logo">TukaTuka</a></h1>
 
 									<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li class="current_page_item"><a href="index.html">Главная</a></li>
+												<li class="current_page_item"><a href="index.php">Главная</a></li>
 												<li>
 													<a href="#">Купить</a>
 													<ul>
@@ -62,7 +62,7 @@
                                     <form action="send.php" method="post">
                                       <div class="row">
                                         <div class="col offset-md-2">
-                                            <input type="email" placeholder="Введите E-mail" required>
+                                            <input type="email" name="email" placeholder="Введите E-mail" required>
                                         </div>
                                         <div class="col" align="left">
                                             <button class="icon fa-envelope" type="submit" >Да, хочу!</button>
