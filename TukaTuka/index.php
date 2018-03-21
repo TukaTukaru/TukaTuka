@@ -97,7 +97,7 @@
 									<div class="row">
 										<div class="4u 12u(mobile)">
 											<section>
-												<a class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+												<a class="image featured"><img src="images/pic01.jpg" alt="Вторичные переработанные гранулы" /></a>
 												<header class="second icon fa-user">
 													<h3>Запуск пилотного</h3>
 													<p>проекта</p>
@@ -106,7 +106,7 @@
 										</div>
 										<div class="4u 12u(mobile)">
 											<section>
-												<a class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<a class="image featured"><img src="images/pic02.jpg" alt="Вторичная бумага, макулатура" /></a>
 												<header class="second icon fa-cog">
 													<h3>Увеличение числа</h3>
 													<p>фракций</p>
@@ -115,7 +115,7 @@
 										</div>
 										<div class="4u 12u(mobile)">
 											<section>
-												<a class="image featured"><img  src="images/pic03.jpg" alt="" /></a>
+												<a class="image featured"><img  src="images/pic03.jpg" alt="Металлом" /></a>
 												<header class="second icon fa-bar-chart-o">
 													<h3>Расширение списка</h3>
 													<p>продуктов</p>
@@ -146,10 +146,10 @@
 
 												<!-- Excerpt -->
 													<article class="box excerpt">
-														<a class="image left"><img src="images/22.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="" /><img src="images/22.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="" /></a>
+														<a class="image left"><img src="images/22.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="Вторичные переработанные гранулы" /><img src="images/22.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="Вторичные переработанные гранулы" /></a>
 														<div>
 															<header>
-																<span class="date">Март, 19</span>
+																<span class="date">Март, 20</span>
 																<h3>Долгожданный запуск пилотного проекта!</h3>
 															</header>
 															<p>На данный момент наш проект охватывает Москву и Московскую область и нацелен на рынок полимерных материалов. Мы стремимся сделать каждому пользователю подходящее именно для него предложение и всегда открыты для Ваших предложений. Для Вашего удобства на нашем ресурсе возможно оформление доставки Вашего товара надежной транспортной компанией.  
@@ -275,7 +275,7 @@
 			<script src="assets/js/main.js"></script>
             <script type="text/javascript">if (!navigator.cookieEnabled) {alert( 'Включите cookie для комфортной работы с этим сайтом' );}</script>
 			<!-- Yandex.Metrika counter --> 
-			 <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47510467 = new Ya.Metrika2({ id:47510467, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47510467" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+			 <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47510467 = new Ya.Metrika2({ id:47510467, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47510467" style="position:absolute; left:-9999px;" alt="counter" /></div></noscript>
 			<!-- /Yandex.Metrika counter -->
 	</body>
 </html>
