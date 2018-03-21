@@ -4,7 +4,7 @@
 		<title>TukaTuka</title>
 		<meta charset="utf-8" />
 		<meta name="keywords" content="waste recycling, recycle, buy plastic wastes, sell plastic wastes" />
-		<meta name="description" content="Сайт является маркетплейсом вторичного сырья" />
+		<meta name="description" content="Надежный рынок вторичного сырья" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
