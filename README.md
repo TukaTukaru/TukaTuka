@@ -1,2 +1,2 @@
 # TukaTuka
-MVP TukaTuka platform
+MVP TukaTuka recycling market platform https://tukatuka.ru/
