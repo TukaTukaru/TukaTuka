@@ -155,11 +155,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 												<!-- Excerpt -->
 													<article class="box excerpt">
-														<a class="image left"><img src="images/22.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="Вторичные переработанные гранулы" /><img src="images/22.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="Вторичные переработанные гранулы" /></a>
+														<a class="image left" href="news/20.03.18.html"><img src="images/22.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="Вторичные переработанные гранулы" /><img src="images/22.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="Вторичные переработанные гранулы" /></a>
 														<div>
 															<header>
 																<span class="date">Март, 20</span>
-																<h3>Долгожданный запуск пилотного проекта!</h3>
+                                                                <h3><a href="news/20.03.18.html">Долгожданный запуск пилотного проекта!</a></h3>
 															</header>
 															<p>На данный момент наш проект охватывает Москву и Московскую область и нацелен на рынок полимерных материалов. Мы стремимся сделать каждому пользователю подходящее именно для него предложение и всегда открыты для Ваших предложений. Для Вашего удобства на нашем ресурсе возможно оформление доставки Вашего товара надежной транспортной компанией.  
 															</p>
