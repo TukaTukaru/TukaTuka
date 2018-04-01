@@ -1342,6 +1342,9 @@
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+    form input[type="file"] {
+    
+    }
 
 /* Tables */
 table {
