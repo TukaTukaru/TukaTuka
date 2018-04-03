@@ -15,7 +15,8 @@ $img = $_POST["img"];
 /* Устанавливаем e-mail адресата */
 $myemail = "rustamelutingol@gmail.com,ponomarevgeorge@yandex.ru,tukatukawork@mail.ru";
 /* Создаем новую переменную, присвоив ей значение */
-$message_to_myemail = "Новое объявление: 
+$message_to_myemail = "!!!Новое объявление!!!
+
 Описание продукта: $descripiton 
 Я хочу $choice
 Адрес фактический: $address
