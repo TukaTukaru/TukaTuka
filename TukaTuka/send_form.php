@@ -11,12 +11,12 @@ $contact = htmlspecialchars($_POST["contact"]);
 $price = htmlspecialchars($_POST["price"]);
 $volume = htmlspecialchars($_POST["volume"]);
 $email = htmlspecialchars($_POST["email"]);
-$img = $_POST["img"];
+
 /* Устанавливаем e-mail адресата */
 $myemail = "rustamelutingol@gmail.com,ponomarevgeorge@yandex.ru,tukatukawork@mail.ru";
-/* Создаем новую переменную, присвоив ей значение */
-$message_to_myemail = "!!!Новое объявление!!!
 
+/* Создаем новую переменную, присвоив ей значение */
+$message_to_myemail = "!!!Новое объявление!!! \r\n
 Описание продукта: $descripiton 
 Я хочу $choice
 Адрес фактический: $address
@@ -28,6 +28,7 @@ $message_to_myemail = "!!!Новое объявление!!!
 Объем продукции: $volume
 E-mail представителя: $email
 Фото: $img";
+
 /* Отправляем сообщение, используя mail() функцию */
 if (mail($myemail, "Объявление", $message_to_myemail, "From: info@tukatuka.ru \r\n"))
     { echo "
