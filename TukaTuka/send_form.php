@@ -26,9 +26,15 @@ $message_to_myemail = "Новое объявление:
 Цена продукции: $price (рублей/кг)
 Объем продукции: $volume
 E-mail представителя: $email
-Фото: $img"
+Фото: $img";
 /* Отправляем сообщение, используя mail() функцию */
-mail($myemail, "Объявление", $message_to_myemail, "From: info@tukatuka.ru \r\n");
-?>
-<p>Ваше сообщение было успешно отправлено!</p>
-<p>На <a href="index.php">Главную >>></a></p>
+if (mail($myemail, "Объявление", $message_to_myemail, "From: info@tukatuka.ru \r\n"))
+    { echo "
+<html>
+  <head>
+   <meta http-equiv='Refresh' content='0; URL=".$_SERVER['HTTP_REFERER']."'>
+  </head>
+</html>";
+} else { 
+    echo "при отправке сообщения возникли ошибки";
+}?>
