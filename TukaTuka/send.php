@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $email = htmlspecialchars($email);
 $email = urldecode($email);
 $email = trim($email);
-if (mail("rustamelutingol@gmail.com,ponomarevgeorge@yandex.ru", "Подпись на рассылку", ". E-mail: ".$email ,"From: info@tukatuka.ru \r\n"))
+if (mail("rustamelutingol@gmail.com,ponomarevgeorge@yandex.ru,tukatukawork@mail.ru", "Подпись на рассылку", ". E-mail: ".$email ,"From: info@tukatuka.ru \r\n"))
  { echo "
 <html>
   <head>
