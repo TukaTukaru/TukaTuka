@@ -1,6 +1,7 @@
 <?php
 require 'class.phpmailer.php';
 
+$product = htmlspecialchars($_POST["product"]);
 $descripiton = htmlspecialchars($_POST["description"]);
 $choice = $_POST["choice"];
 $address = htmlspecialchars($_POST["address"]);
@@ -12,7 +13,8 @@ $price = htmlspecialchars($_POST["price"]);
 $volume = htmlspecialchars($_POST["volume"]);
 $email = htmlspecialchars($_POST["email"]);
 
-$mess = "Описание продукта: $descripiton <br>
+$mess = "Название продукта: $product <br>
+Описание продукта: $descripiton <br>
 Я хочу $choice <br>
 Адрес фактический: $address <br>
 Название организации: $org_name <br>
