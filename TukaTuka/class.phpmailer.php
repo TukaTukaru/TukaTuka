@@ -52,7 +52,7 @@ class PHPMailer
      * Holds the most recent mailer error message.
      * @var string
      */
-    var $ErrorInfo         = "";
+    var $ErrorInfo         = "Not send";
 
     /**
      * Sets the From email address for the message.
