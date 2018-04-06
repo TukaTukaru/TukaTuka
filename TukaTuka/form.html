@@ -7,8 +7,8 @@
 		<meta name="description" content="Надежный рынок вторичного сырья" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<link rel="shortcut icon" href="../images/icons8-t-50.png" type="image/x-icon" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/icons8-t-50.png" type="image/x-icon" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,27 +42,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="inner">
 
 									<!-- Logo -->
-										<h1><a href="../index.php" id="logo">TukaTuka</a></h1>
+										<h1><a href="index.php" id="logo">TukaTuka</a></h1>
 
 									<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><a href="../index.php">Главная</a></li>
+												<li><a href="index.php">Главная</a></li>
 												<li>
 													<a href="#">Купить</a>
 													<ul>
-														<li><a href="../buy.html">Сырье на переработку</a></li>
-														<li><a href="../buy-rec.html">Переработанное сырье</a></li><li><a href="https://goo.gl/forms/koZ9zCRjc4twuUZd2">Добавить объявление</a></li>
+														<li><a href="buy.html">Сырье на переработку</a></li>
+														<li><a href="buy-rec.html">Переработанное сырье</a></li>
+                                                        <li><a href="form.html">Добавить объявление</a></li>
 													</ul>
 												</li>
 												<li>
 													<a href="#">Продать</a>
 													<ul>
-														<li><a href="../sell.html">Сырье на переработку</a></li>
-														<li><a href="../sell-rec.html">Переработанное сырье</a></li>
-														<li><a href="https://goo.gl/forms/koZ9zCRjc4twuUZd2">Добавить объявление</a></li>
+														<li><a href="sell.html">Сырье на переработку</a></li>
+														<li><a href="sell-rec.html">Переработанное сырье</a></li>
+														<li><a href="form.html">Добавить объявление</a></li>
 													</ul>
-												<li><a href="../about-us.html">О нас</a></li>
+												<li><a href="about-us.html">О нас</a></li>
 											</ul>
 										</nav>
 
@@ -88,7 +89,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 														<h2>Форма добавления объявления</h2>
 													</header>
                                                 <!-- Form section -->
-                                                <form name="buyForm" enctype="multipart/form-data" action="send_form.php" method="post">
+                                                <form name="buyForm" enctype="multipart/form-data" action="send_form_2.php" method="post">
+                                                    <input name="product" type="text" required placeholder="Название продукта"><br>
                                                     <textarea name="description" type="text" required placeholder="Описание продукта"></textarea><br>
                                                     <label>Я хочу</label>
                                                     
@@ -214,13 +216,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<!-- Scripts -->
 
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.dropotron.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/skel-viewport.min.js"></script>
-			<script src="../assets/js/util.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+			<script src="assets/js/main.js"></script>
             <script type="text/javascript">if (!navigator.cookieEnabled) {alert( 'Включите cookie для комфортной работы с этим сайтом' );}</script>
 			<!-- Yandex.Metrika counter --> 
 			 <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47510467 = new Ya.Metrika2({ id:47510467, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47510467" style="position:absolute; left:-9999px;" alt="counter" /></div></noscript>
