@@ -1119,6 +1119,12 @@
 		outline: 0;
 	}
 
+    h1 {
+		font-size: 2em;
+		margin: 0 0 1.5em 0;
+		line-height: 1em;
+	}
+
 	h2 {
 		font-size: 2em;
 		margin: 0 0 1.5em 0;
@@ -1225,7 +1231,7 @@
 		margin: 0 0 2em 0;
 	}
 
-		header h2, header h3 {
+		header h1, header h2, header h3 {
 			margin: 0 0 0.25em 0;
 		}
 
@@ -1262,7 +1268,7 @@
 			height: 0px;
 		}
 
-		header.major h2, header.major h3 {
+		header.major h1, header.major h2, header.major h3 {
 			margin: 0 0 1em 0;
 		}
 
