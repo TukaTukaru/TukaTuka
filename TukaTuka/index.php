@@ -183,8 +183,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 															<p>На данный момент наш проект охватывает Москву и Московскую область и нацелен на рынок полимерных материалов. Мы стремимся сделать каждому пользователю подходящее именно для него предложение и всегда открыты для Ваших предложений. Для Вашего удобства на нашем ресурсе возможно оформление доставки Вашего товара надежной транспортной компанией.  
 															</p>
 														</div>
-                                                        <br>
-                                                        <a class="image left" href="news/09.04.18.html#main-wrapper"><img src="images/26.jpg" class="d-none d-md-block" style="width:260px; height: 310px;" alt="Вторичные переработанные гранулы" /><img src="images/26.jpg" class="d-md-none" style="width:85px; height: 110px;" alt="Вторичные переработанные гранулы" /></a>
+                                                        <br> 
+													</article>
+                                                
+                                                
+                                                <article class="box excerpt">
+                                                <a class="image left" href="news/09.04.18.html#main-wrapper"><img src="images/26.jpg" class="d-none d-md-block" style="width:260px; height: 310px;" alt="Вторичные переработанные гранулы" /><img src="images/26.jpg" class="d-md-none" style="width:85px; height: 110px;" alt="Вторичные переработанные гранулы" /></a>
 														<div>
 															<header>
 																<span class="date">Апрель, 9</span>
@@ -195,8 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 															</p>
 														</div>
                                                         <br>
-													</article>
-
+                                                </article>
 												
 
 												
