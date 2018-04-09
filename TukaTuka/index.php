@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 															</p>
 														</div>
                                                         <br>
-                                                        <a class="image left" href="news/09.04.18.html#main-wrapper"><img src="images/26.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="Вторичные переработанные гранулы" /><img src="images/26.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="Вторичные переработанные гранулы" /></a>
+                                                        <a class="image left" href="news/09.04.18.html#main-wrapper"><img src="images/26.jpg" class="d-none d-md-block" style="width:260px; height: 300px;" alt="Вторичные переработанные гранулы" /><img src="images/26.jpg" class="d-md-none" style="width:85px; height: 100px;" alt="Вторичные переработанные гранулы" /></a>
 														<div>
 															<header>
 																<span class="date">Апрель, 9</span>
