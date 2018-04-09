@@ -184,6 +184,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 															</p>
 														</div>
                                                         <br>
+                                                        <a class="image left" href="news/09.04.18.html#main-wrapper"><img src="images/news2.jpg" class="d-none d-md-block" style="width:260px; height: 278px;" alt="Вторичные переработанные гранулы" /><img src="images/news2.jpg" class="d-md-none" style="width:85px; height: 85px;" alt="Вторичные переработанные гранулы" /></a>
+														<div>
+															<header>
+																<span class="date">Апрель, 9</span>
+                                                                <h3><a href="news/09.04.18.html#main-wrapper">Что у нас нового?</a></h3>
+															</header>
+															<p>Рады сообщить Вам, что форма внесения объявления стала удобнее! Теперь Вы без труда можете загружать сразу несколько фотографий продукции.
+Кроме того, у нас появился чат - мы постараемся оперативно ответить на все Ваши сообщения. Помимо этого, были добавлены новые объявления и убраны неактуальные. Мы стремимся контактировать со всеми нашими клиентами для публикации только проверенных объявлений. 
+															</p>
+														</div>
+                                                        <br>
 													</article>
 
 												
