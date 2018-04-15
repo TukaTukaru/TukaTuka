@@ -206,6 +206,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											</section>
 
 								      </div>
+                                    <div class="4u 12u(mobile)">
+
+										<!-- Spotlight -->
+											<section class="box spotlight">
+												<h2 class="icon fa-file-text-o">Статьи</h2>
+												<article>
+													<a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+													<header>
+														<h3><a href="#">Название статьи</a></h3>
+														<p>Автор</p>
+													</header>
+													<p>Вставь текст статьи, но не весь</p>
+													<footer>
+														<a href="#" class="button alt icon fa-file-o">Продолжить чтение</a>
+													</footer>
+												</article>
+											</section>
+
+									   </div>
 									</div>
 								</div>
 							</div>
